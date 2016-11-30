@@ -1,5 +1,5 @@
 # PuzzleGame
-the sample program of teaching materials
+This is the sample program of teaching materials that only one file and very simply code.
 
 # Required libraries
 * DxLib
