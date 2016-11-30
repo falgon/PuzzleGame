@@ -54,8 +54,8 @@ struct GameMain final{
 			GetMousePoint(&x, &y);
 			change(x / 80, y / 80);
 			bool clear = true;
+			std::size_t i = 0;
 			for(const int& value:panel){
-				std::size_t i = 0;
 				if (value != i++) clear = false;
 			}
 			if (clear) status = CLEAR;
