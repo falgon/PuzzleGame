@@ -1,3 +1,16 @@
+/*
+ *
+ * Input the puzzle from standart input stream object
+ * NOTE:x means the empty
+ *
+ * exp:
+ * x 1 7
+ * 2 8 3
+ * 6 5 4
+ *
+ *
+ */
+
 #include<string>
 #include<map>
 #include<queue>
