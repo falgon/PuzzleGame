@@ -1,0 +1,19 @@
+language: cpp
+script:
+        - clang-5.0 --version
+        - g++-6 --version
+        - cd tests && make
+        - ./0x01_clang.out && ./0x01_gcc.out
+        - make clean
+compiler:
+        - clang
+        - gcc-6
+install:
+        - sudo add-apt-repository --yes ppa:ubuntu-toolchain-r/test
+        - wget -O - http://llvm.org/apt/llvm-snapshot.gpg.key | sudo apt-key add -
+        - sudo add-apt-repository --yes 'deb http://llvm.org/apt/precise/ llvm-toolchain-precise main'
+        - sudo add-apt-repository --yes 'deb http://us.archive.ubuntu.com/ubuntu wily main universe'
+        - sudo apt-get -qq update
+        - sudo apt-get -qq install clang-5.0
+        - sudo apt-get -qq install libboost-all-dev
+        - sudo apt-get -qq install g++-6
