@@ -1,7 +1,9 @@
 ![パズルです](puzzle.png)
 
 # PuzzleGame
-This is the sample program of teaching materials that only one file and very simply code.
+[![Build Status](https://travis-ci.org/falgon/PuzzleGame.svg?branch=master)](https://travis-ci.org/falgon/PuzzleGame)
+
+This is the sample program of teaching materials that only two file and very simply code.
 
 # Files
 * src/puzzle.cpp : Source code of the game.
