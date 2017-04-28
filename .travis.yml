@@ -4,7 +4,6 @@ script:
         - g++-6 --version
         - make
         - make clean
-        - exit
 compiler:
         - clang
         - gcc-6
