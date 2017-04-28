@@ -3,7 +3,6 @@ script:
         - clang-5.0 --version
         - g++-6 --version
         - make
-        - ./0x01_clang.out && ./0x01_gcc.out
         - make clean
         - exit
 compiler:
