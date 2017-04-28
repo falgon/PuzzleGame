@@ -5,6 +5,7 @@ script:
         - make
         - ./0x01_clang.out && ./0x01_gcc.out
         - make clean
+        - exit
 compiler:
         - clang
         - gcc-6
